@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  h1,h2 {
+    text-align: center;
+  }
+  #app {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .user-form {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+    width: 400px;
+  }
+  
+  .user-form input,.user-form select,
+  .user-form button {
+    margin: 5px 0;
+    padding: 10px 10px;
+    width: 360px;
+  }
+
+  .user-list {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+    width: 80%;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  table, th, td {
+    border: 1px solid #ccc;
+  }
+  
+  th, td {
+    padding: 10px;
+    text-align: center;
+  }
+  
+  button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  .sp-noti
+  {
+    color: red;
+  }
